@@ -1,4 +1,5 @@
 function edt#set() abort
+  "Shift + Enterで下に、Shift + Ctrl + Enterで上に空行を挿入します。
   imap <S-CR> <End><CR>
   imap <C-S-CR> <Up><End><CR>
   nnoremap <S-CR> mzo<ESC>`z

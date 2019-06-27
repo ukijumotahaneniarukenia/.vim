@@ -1,4 +1,5 @@
 function mus#set() abort
+  "マウスでカーソル移動やスクロール移動が出来るようになります。
   if has('mouse')
       set mouse=a
       if has('mouse_sgr')
