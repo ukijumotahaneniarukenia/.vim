@@ -7,6 +7,7 @@ function! vis#set() abort
   set shiftwidth=4 " smartindentで増減する幅
   "ノーマルモードでスペースを２回押すと、カーソル下の単語がハイライトされます。
   nnoremap <silent> <Space><Space> "zyiw:let @/ = '\<' . @z . '\>'<CR>:set hlsearch<CR>
+  set cursorcolumn
 endfunction
 
 call vis#set()
