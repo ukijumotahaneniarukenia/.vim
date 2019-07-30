@@ -1,5 +1,21 @@
 # 9月頃までにフォルダ構成いいかんじにする
 
+# vim 最新版instrall
+
+```
+[root@5568195e9119 /]# yum install -y git make ncurses-devel gcc
+[root@a3b26b7780cb /]# yum install -y gtk2-devel atk-devel libX11-devel libXt-devel
+[root@156d107c6f35 /]# git clone https://github.com/vim/vim.git
+[root@156d107c6f35 /]# cd vim
+[root@5568195e9119 src]# ./configure --enable-multibyte --with-features=huge --enable-cscope --enable-gui=gtk2 --disable-selinux --prefix=/usr/local --enable-xim --enable-fontset --enable-gpm --enable-rubyinterp --with-python-config-dir=/usr/lib/python2.7/config
+[root@156d107c6f35 vim]# make
+[root@156d107c6f35 vim]# make install
+[root@156d107c6f35 vim]# vim --version
+[root@156d107c6f35 vim]# which vim
+/usr/local/bin/vim
+
+```
+
 # dein.vim install
 ```
 [root@a3b26b7780cb ~]# mkdir -p ~/.vim/bundle
