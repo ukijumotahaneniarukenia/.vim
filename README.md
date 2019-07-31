@@ -13,7 +13,8 @@
 [root@156d107c6f35 vim]# vim --version
 [root@156d107c6f35 vim]# which vim
 /usr/local/bin/vim
-
+[root@centos oracle]# ln -fsr /usr/local/bin/vim /usr/bin/vim
+[root@centos oracle]# ln -fsr /usr/local/bin/vim /usr/bin/vi
 ```
 
 # dein.vim install
