@@ -11,17 +11,17 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/oracle/.vim/bundle/repos/github.com/Shougo/dein.vim
+set runtimepath+=$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/oracle/.vim/bundle')
-  call dein#begin('/home/oracle/.vim/bundle')
+if dein#load_state($HOME . '/.vim/bundle')
+  call dein#begin($HOME . '/.vim/bundle')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/oracle/.vim/bundle/repos/github.com/Shougo/dein.vim')
-  
-  let s:toml = '~/.vim/.dein.toml'
+  call dein#add($HOME . '/.vim/bundle/repos/github.com/Shougo/dein.vim')
+
+  let s:toml = $HOME . '/.vim/.dein.toml'
   call dein#load_toml(s:toml, {'lazy': 0})
 
   " Add or remove your plugins here like this:
@@ -43,8 +43,7 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
-
-set rtp+=~/.vim/bundle/nerdtree
+set runtimepath+=$HOME/.vim/bundle/nerdtree
 autocmd VimEnter * execute 'NERDTree'
 set helplang=ja
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
