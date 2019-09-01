@@ -3,3 +3,9 @@ repo = 'scrooloose/nerdtree'
 
 [[plugins]]
 repo = 'vim-jp/vimdoc-ja'
+
+[[plugins]]
+repo = 'vim-scripts/Align'
+
+[[plugins]]
+repo = 'vim-scripts/SQLUtilities'
