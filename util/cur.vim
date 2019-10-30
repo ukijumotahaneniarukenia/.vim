@@ -17,3 +17,6 @@ function cur#set() abort
 endfunction
 
 call cur#set()
+
+
+inoremap <silent> jj <ESC>
