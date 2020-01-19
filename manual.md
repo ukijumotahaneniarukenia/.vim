@@ -43,6 +43,7 @@ grep repo ~/.vim/.dein.toml | grep -oP '(?<=\x27)(.*)/(.*)(?=\x27)' | tr '/' ':'
   }
   print "mkdir -p ~/.vim/util/"lft" && [ -f ~/.vim/util/"lft"/"rgt" ] || touch ~/.vim/util/"lft"/"rgt
 }' | sh
+find $HOME/.vim/util -type f -name "*"
 ```
 
 # ライブラリはフォルダ名管理でライブラリ以外はファイル名管理
