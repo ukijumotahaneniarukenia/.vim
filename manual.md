@@ -28,3 +28,20 @@ mkdir -p ~/.vim/bundle
 cd ~ && curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 cd ~ && sh installer.sh ~/.vim/bundle && rm -rf installer.sh
 ```
+
+# ライブラリ独自設定のためのvimファイル作成
+
+デフォ作成して、独自設定なければ0バイトファイルのままこみっと
+
+```
+grep repo .dein.toml | grep -oP '(?<=\x27)(.*)/(.*)(?=\x27)' | tr '/' ':' | awk 'match($0,/:/){ \
+  lft=substr($0,1,RSTART-1);
+  rgt=substr($0,RSTART+1,length($0));
+  if(rgt !~ /.vim$/){
+     rgt=rgt".vim"
+  }
+  print "mkdir -p ~/.vim/util/"lft" && touch ~/.vim/util/"lft"/"rgt
+}' | sh
+```
+
+# ライブラリはフォルダ名管理でライブラリ以外はファイル名管理
