@@ -32,15 +32,16 @@ cd ~ && sh installer.sh ~/.vim/bundle && rm -rf installer.sh
 # ライブラリ独自設定のためのvimファイル作成
 
 デフォ作成して、独自設定なければ0バイトファイルのままこみっと
+既にファイルが存在した場合は新規作成しない
 
 ```
-grep repo .dein.toml | grep -oP '(?<=\x27)(.*)/(.*)(?=\x27)' | tr '/' ':' | awk 'match($0,/:/){ \
+grep repo ~/.vim/.dein.toml | grep -oP '(?<=\x27)(.*)/(.*)(?=\x27)' | tr '/' ':' | awk 'match($0,/:/){ \
   lft=substr($0,1,RSTART-1);
   rgt=substr($0,RSTART+1,length($0));
   if(rgt !~ /.vim$/){
      rgt=rgt".vim"
   }
-  print "mkdir -p ~/.vim/util/"lft" && touch ~/.vim/util/"lft"/"rgt
+  print "mkdir -p ~/.vim/util/"lft" && [ -f ~/.vim/util/"lft"/"rgt" ] || touch ~/.vim/util/"lft"/"rgt
 }' | sh
 ```
 
