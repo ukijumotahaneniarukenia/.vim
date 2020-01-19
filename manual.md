@@ -9,6 +9,7 @@
 ```
 yum install -y git make ncurses-devel gcc
 yum install -y gtk2-devel atk-devel libX11-devel libXt-devel
+cd /usr/local/src
 git clone https://github.com/vim/vim.git
 cd vim
 ./configure --enable-multibyte --with-features=huge --enable-cscope --enable-gui=gtk2 --disable-selinux --prefix=/usr/local --enable-xim --enable-fontset --enable-gpm --enable-rubyinterp --with-python-config-dir=/usr/lib/python2.7/config
@@ -24,6 +25,6 @@ ln -fsr /usr/local/bin/vim /usr/bin/vi
 
 ```
 mkdir -p ~/.vim/bundle
-curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-sh installer.sh ~/.vim/bundle
+cd ~ && curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+cd ~ && sh installer.sh ~/.vim/bundle && rm -rf installer.sh
 ```
