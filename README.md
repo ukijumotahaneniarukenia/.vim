@@ -20,10 +20,13 @@
 ```
 
 # dein.vim install
+
+rootユーザーで実行
+
 ```
-[root@a3b26b7780cb ~]# mkdir -p ~/.vim/bundle
-[root@a3b26b7780cb ~]# curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-[root@a3b26b7780cb ~]# sh installer.sh ~/.vim/bundle
+mkdir -p ~/.vim/bundle
+cd ~ && curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+cd ~ && sh installer.sh ~/.vim/bundle && rm -rf installer.sh
 ```
 
 それまでいろいろさわっておく
