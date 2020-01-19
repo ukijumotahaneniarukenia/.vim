@@ -9,3 +9,9 @@ repo = 'vim-scripts/Align'
 
 [[plugins]]
 repo = 'vim-scripts/SQLUtilities'
+
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]]
+repo = 'tomasr/molokai'
