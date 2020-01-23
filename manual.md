@@ -12,10 +12,11 @@ https://qiita.com/succi0303/items/cd30d0ea40d419d4431c
 
 https://mattn.kaoriya.net/software/vim/20191231213507.htm
 
+https://qiita.com/mattn/items/e62b9f16bc487a271a7f
+
 # .vim配下のディレクトリ構成のみを管理する
 
 # .vimrcについてはdotfileレポで管理する
-
 # vim本体のいんすこ
 
 単体でリカバレるようにいんすこスクリプトをのこす
