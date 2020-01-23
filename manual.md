@@ -1,5 +1,7 @@
 # lspにする
 
+http://wakame.hatenablog.jp/entry/2019/03/31/124941
+
 https://kashewnuts.github.io/2019/01/28/move_from_jedivim_to_vimlsp.html
 
 https://qiita.com/kitagry/items/216c2cf0066ff046d200
