@@ -8,6 +8,8 @@ https://qiita.com/kitagry/items/216c2cf0066ff046d200
 
 http://kutimoti.hatenablog.com/entry/2018/05/20/110732
 
+https://qiita.com/succi0303/items/cd30d0ea40d419d4431c
+
 # .vim配下のディレクトリ構成のみを管理する
 
 # .vimrcについてはdotfileレポで管理する
