@@ -10,6 +10,8 @@ http://kutimoti.hatenablog.com/entry/2018/05/20/110732
 
 https://qiita.com/succi0303/items/cd30d0ea40d419d4431c
 
+https://mattn.kaoriya.net/software/vim/20191231213507.htm
+
 # .vim配下のディレクトリ構成のみを管理する
 
 # .vimrcについてはdotfileレポで管理する
