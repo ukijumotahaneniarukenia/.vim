@@ -1,3 +1,9 @@
+# lspにする
+
+https://kashewnuts.github.io/2019/01/28/move_from_jedivim_to_vimlsp.html
+
+https://qiita.com/kitagry/items/216c2cf0066ff046d200
+
 # .vim配下のディレクトリ構成のみを管理する
 
 # .vimrcについてはdotfileレポで管理する
