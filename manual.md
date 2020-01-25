@@ -34,6 +34,21 @@ ln -fsr /usr/local/bin/vim /usr/bin/vim
 ln -fsr /usr/local/bin/vim /usr/bin/vi
 ```
 
+# .vimフォルダいんすこ
+
+```
+git clone https://github.com/ukijumotahaneniarukenia/.vim.git ~/.vim
+```
+
+# dotfileいんすこ
+
+```
+git clone https://github.com/ukijumotahaneniarukenia/dotfile.git ~/tmp
+cd ~/tmp
+mv rc/.[^.]* ~
+rm -rf ~/tmp
+```
+
 # ライブラリ管理dein.vimいんすこ
 
 単体でリカバレるようにいんすこスクリプトをのこす
