@@ -8,9 +8,6 @@ repo = 'vim-jp/vimdoc-ja'
 repo = 'vim-scripts/Align'
 
 [[plugins]]
-repo = 'vim-scripts/SQLUtilities'
-
-[[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
