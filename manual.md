@@ -34,14 +34,6 @@ ln -fsr /usr/local/bin/vim /usr/bin/vim
 ln -fsr /usr/local/bin/vim /usr/bin/vi
 ```
 
-# 日本語環境をいんすこ
-
-いろいろ聞かれるが、いい感じに答える
-
-```
-apt -y install language-pack-ja-base language-pack-ja ibus-mozc
-```
-
 # .vimフォルダいんすこ
 
 ```
