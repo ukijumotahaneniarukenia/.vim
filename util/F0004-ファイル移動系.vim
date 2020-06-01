@@ -1,9 +1,3 @@
-function! mov#set() abort
-
-endfunction
-
-call mov#set()
-
 "挿入モードで'jj' → ESC
 "https://qiita.com/Sa2Knight/items/b8e4f1af5222e54cd006
 inoremap <silent> jj <ESC>
