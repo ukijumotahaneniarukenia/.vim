@@ -1,0 +1,9 @@
+{
+  "suggest.enablePreselect": true,
+  "languageserver": {
+    "swift": {
+      "command": "/usr/local/bin/sourcekit-lsp",
+      "filetypes": ["swift"]
+    }
+  }
+}
