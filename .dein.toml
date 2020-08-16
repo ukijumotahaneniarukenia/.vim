@@ -1,11 +1,5 @@
 [[plugins]]
-repo = 'scrooloose/nerdtree'
-
-[[plugins]]
 repo = 'vim-jp/vimdoc-ja'
-
-[[plugins]]
-repo = 'vim-scripts/Align'
 
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
@@ -30,6 +24,3 @@ repo = 'prabirshrestha/asyncomplete-lsp.vim'
 
 [[plugins]]
 repo = 'mattn/vim-lsp-settings'
-
-[[plugins]]
-repo = 'suan/vim-instant-markdown'
