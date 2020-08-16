@@ -1,0 +1,5 @@
+" 行が折り返し表示されていた場合での行単位ではなく表示行単位でのカーソル移動を可能にする
+nnoremap j gj
+nnoremap k gk
+nnoremap <down> gj
+nnoremap <up> gk
